@@ -6,4 +6,4 @@ metadata:
         app: postgres
 data:
     POSTGRES_HOST: postgres
-    POSTGRES_DB: store
+    POSTGRES_DB: collie
