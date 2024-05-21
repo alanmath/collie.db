@@ -9,11 +9,7 @@ pipeline {
                 echo 'Db'
             }
         }
-        stage ('Build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
+
         stage('Checkout') {
             steps {
                 checkout scm
